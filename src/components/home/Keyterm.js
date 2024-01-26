@@ -11,7 +11,7 @@ const Keyterm = () => {
   return (
     <>
       <div className="flex-col justify-center items-center">
-        <h1 className="uppercase text-start p-2 py-2 tracking-widest font-bold mb-8 font-serif bg-slate-300 text-gray-700 h-[50px]">
+        <h1 className="bg-blue-300 uppercase text-start p-2 py-2 tracking-widest font-bold mb-8 font-serif bg-slate-300 text-gray-700 h-[50px]">
           Key Terms
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

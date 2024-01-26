@@ -5,7 +5,7 @@ const Top = () => {
     <div>
       <div className="flex-col justify-center items-center">
         <p className="font-bold text-4xl">Fitness</p>
-        <div className="bg-gray-100 rounded-xl mt-10 p-10 m lg:w-[1100px] font-serif text-xl">
+        <div className="bg-blue-300 text-gray-800 rounded-xl mt-10 p-10 m lg:w-[1100px] font-serif text-xl">
           <p className="font-serif">
             Fitness is a broad term that can mean a lot of different things to
             different people. For some, it can mean a fitness program and for

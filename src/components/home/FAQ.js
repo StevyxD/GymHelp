@@ -7,8 +7,8 @@ const FAQ = () => {
 
   return (
     <>
-      <section className="max-w-xl mx-auto py-20 px-4 gap-0 flex-col justify-center items-center">
-        <h1 className="uppercase text-start p-2 py-2 tracking-widest font-bold mb-8 font-serif bg-slate-300 text-gray-700 h-[50px]">
+      <section className="  max-w-xl mx-auto py-20 px-4 gap-0 flex-col justify-center items-center">
+        <h1 className="bg-blue-300 text-gray-300 uppercase text-start p-2 py-2 tracking-widest font-bold mb-8 font-serif  text-gray-700 h-[50px]">
           Faqs
         </h1>
 

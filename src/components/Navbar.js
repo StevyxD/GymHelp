@@ -11,16 +11,16 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="sm:px-8 px-4 py-2 z-10 w-full">
+      <header className="bg-blue-300  sm:px-8 px-4 py-2 z-10 w-full">
         <nav className="flex justify-between items-center max-container">
-          <Link to="/" className="text-3xl font-bold">
+          <Link to="/" className="text-gray-800 text-3xl font-bold">
             Logo
           </Link>
-          <ul className="font-serif flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+          <ul className="text-gray-900 hover:scale-105 duration-500  font-bold font-sans flex-1 flex justify-center items-center gap-16 max-lg:hidden">
             <li>
               <Link
                 to="/"
-                className="font-montserrat leading-normal text-lg text-slate-gray"
+                className="hover:scale-105 duration-500 hover:text-gray-700 hover:scale-105 duration-500 hover:text-gray-700  font-montserrat leading-normal text-lg text-slate-gray"
               >
                 Home
               </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/Diet"
-                className="font-montserrat leading-normal text-lg text-slate-gray"
+                className="hover:scale-105 duration-500 hover:text-gray-700  font-montserrat leading-normal text-lg text-slate-gray"
               >
                 Diet
               </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="Posture"
-                className="font-montserrat leading-normal text-lg text-slate-gray"
+                className="hover:scale-105 duration-500 hover:text-gray-700  font-montserrat leading-normal text-lg text-slate-gray"
               >
                 Posture
               </Link>
@@ -44,16 +44,16 @@ const Navbar = () => {
             <li>
               <Link
                 to="/Contact"
-                className="font-montserrat leading-normal text-lg text-slate-gray"
+                className="hover:scale-105 duration-500 hover:text-gray-700  font-montserrat leading-normal text-lg text-slate-gray"
               >
                 Contact Us
               </Link>
             </li>
           </ul>
           <div className="font-serif flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
-            <Link to="/">Sign in</Link>
+            <Link to="/signin">Sign in</Link>
             <span>/</span>
-            <Link to="/">Explore now</Link>
+            <Link to="/signup">Sign Up</Link>
           </div>
           <div
             className="hidden max-lg:block cursor-pointer"
@@ -76,11 +76,11 @@ const Navbar = () => {
             >
               <MdClose className="text-4xl" />
             </div>
-            <ul className="font-serif lg:hidden flex flex-col items-center justify-center h-full ">
+            <ul className="text-blue-800  font-bold font-sans lg:hidden flex flex-col items-center justify-center h-full ">
               <li>
                 <Link
                   to="/"
-                  className="font-montserrat leading-normal text-lg text-slate-gray"
+                  className="hover:scale-105 duration-500 hover:text-gray-700  font-montserrat leading-normal text-lg text-slate-gray"
                 >
                   Home
                 </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/Diet"
-                  className="font-montserrat leading-normal text-lg text-slate-gray"
+                  className="hover:scale-105 duration-500 hover:text-gray-700  font-montserrat leading-normal text-lg text-slate-gray"
                 >
                   Diet
                 </Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/Posture"
-                  className="font-montserrat leading-normal text-lg text-slate-gray"
+                  className="hover:scale-105 duration-500 hover:text-gray-700  font-montserrat leading-normal text-lg text-slate-gray"
                 >
                   Posture
                 </Link>
@@ -104,7 +104,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/Contact"
-                  className="font-montserrat leading-normal text-lg text-slate-gray"
+                  className="hover:scale-105 duration-500 hover:text-gray-700  font-montserrat leading-normal text-lg text-slate-gray"
                 >
                   Contact Us
                 </Link>
